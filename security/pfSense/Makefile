@@ -53,6 +53,9 @@ RUN_DEPENDS=	bind-tools>=0:dns/bind-tools \
 		pfSense-composer-deps>=0:devel/pfSense-composer-deps \
 		pfSense-repo>=0:sysutils/pfSense-repo \
 		pfSense-pkg-suricata>=0:security/pfSense-pkg-suricata \
+		pfSense-pkg-suricata>=0:net/ntopng \
+		pfSense-pkg-suricata>=0:www/squid \		
+		pfSense-pkg-suricata>=0:www/squidguard \		
 		pftop>=0:sysutils/pftop \
 		qstats>=0:sysutils/qstats \
 		radvd>=0:net/radvd \
