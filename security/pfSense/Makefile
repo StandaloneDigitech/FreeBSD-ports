@@ -40,6 +40,7 @@ RUN_DEPENDS=	bind-tools>=0:dns/bind-tools \
 		mpd5>=0:net/mpd5 \
 		nginx>=0:www/nginx \
 		ntp>=0:net/ntp \
+		openvpn-client-export>=0:security/openvpn-client-export \
 		openvpn>=0:security/openvpn \
 		${PHP_PKGNAMEPREFIX}openssl_x509_crl>=0:security/php-openssl_x509_crl@${PHP_FLAVOR} \
 		${PHP_PKGNAMEPREFIX}pear-Auth_RADIUS>=0:net/pear-Auth_RADIUS@${PHP_FLAVOR} \
